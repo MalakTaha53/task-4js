@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fetch</h1>
+    <p>not need to install its build in js</p>
+    <p>Syntex :</p> 
+    <p>  const response = await fetch(`https://forkify-api.herokuapp.com/api/search?q=pizza`,{method:'GET'}); or </p>
+    <p>const response = await fetch(`https://forkify-api.herokuapp.com/api/search?q=pizza`,{method:'POST'});</p>
+    <p>if not use await will print (Promise {pending}) so we use await to get the response also the function type is async</p>
+    <p>the response contain information about request not data that we needed so to get data from the response
+         need to using json() method with await becouse json take time to get data
+    </p>
+    
+
+
+    <h1>Axios</h1>
+    <p>we need to install it using cdn or npm</p>
+    <p>Syntex:</p>
+    <p>const response = await axios.get('https://dummyjson.com/products'); or </p>
+    <p>const response = await axios.post('https://dummyjson.com/products'); or </p>
+    <p>const response = await axios.delete('https://dummyjson.com/products');</p>
+    <p>if not use await will print (Promise) so we use await to get the response also the function type is async</p>
+    <p>the response return data direct without using json() method</p>
+</body>
+</html>

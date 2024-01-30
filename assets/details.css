@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+      width: calc(100% - 300px);
+      margin: auto;
+  }
+  body{
+    background-color: rgb(197, 197, 188);
+  }
+  .product{
+    margin-top: 10px;
+  }
+  .product .product-details{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .product .product-details img{
+    display: block;
+    width: 50%;
+    border-radius: 5px;
+  }
+  .product .product-details h1,p{
+    font-family: "EB Garamond", serif;
+    color: black;
+    text-transform: capitalize;
+  }
+  .product .product-details h1{
+    font-style: italic;
+  }
+  .product .product-details .des{
+    color: black;
+    font-size: 18px;
+  }
+  .product .product-details .details p{
+    color: black;
+    font-size: 20px;
+  }
+  .product .product-details .details p span{
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+  }
